@@ -63,3 +63,7 @@ def reduce_to_all_true(arr)
   end
   result
 end
+
+def reduce_to_any_true(arr)
+
+end
