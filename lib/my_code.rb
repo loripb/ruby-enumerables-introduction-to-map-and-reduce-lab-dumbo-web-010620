@@ -32,7 +32,7 @@ def map_to_double(arr)
   result
 end
 
-def map_to_square
+def map_to_square(arr)
   result = []
   i      = 0
 
