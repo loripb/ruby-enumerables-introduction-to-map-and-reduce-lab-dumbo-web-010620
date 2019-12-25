@@ -72,6 +72,7 @@ def reduce_to_any_true(arr)
       break
     end
     arr[i] ? result = true : result = false
+    puts !!arr[i]
     i += 1
   end
   result
