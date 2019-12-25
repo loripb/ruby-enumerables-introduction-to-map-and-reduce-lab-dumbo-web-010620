@@ -3,6 +3,6 @@ def map_to_negativize(arr)
   result = []
   i      = 0
 
-  puts arr
+  p arr
 
 end
