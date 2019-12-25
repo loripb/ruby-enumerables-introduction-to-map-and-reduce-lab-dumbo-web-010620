@@ -43,8 +43,8 @@ def map_to_square(arr)
   result
 end
 
-def reduce_to_total(arr)
-  result = 0
+def reduce_to_total(arr, starting_point=0)
+  result = starting_point
   i      = 0
 
   while i < arr.length
