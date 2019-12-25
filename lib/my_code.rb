@@ -61,7 +61,7 @@ def reduce_to_all_true(arr)
     if arr[i]
       p result = true
     else
-      p result
+      p result = false
     end
 
     i += 1
