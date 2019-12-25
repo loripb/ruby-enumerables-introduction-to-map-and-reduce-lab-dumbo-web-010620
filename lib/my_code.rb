@@ -66,7 +66,7 @@ end
 
 def reduce_to_any_true(arr)
   i      = 0
-  result = nil
+  
   while i < arr.length
     result = !!arr[i]
     i += 1
