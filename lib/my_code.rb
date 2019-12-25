@@ -11,5 +11,12 @@ def map_to_negativize(arr)
 end
 
 def map_to_no_change(arr)
-  
+  result = []
+  i      = 0
+
+  while i < arr.length
+    result << arr[i]
+    i += 1
+  end
+  result
 end
