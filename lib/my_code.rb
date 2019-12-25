@@ -9,3 +9,7 @@ def map_to_negativize(arr)
   end
   result
 end
+
+def map_to_no_change(arr)
+  
+end
