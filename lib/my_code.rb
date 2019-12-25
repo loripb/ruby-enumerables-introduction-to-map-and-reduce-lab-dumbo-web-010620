@@ -58,7 +58,7 @@ def reduce_to_all_true(arr)
   i      = 0
   result = false
   while i < arr.length
-    if arr[i] 
+    if arr[i]
       result = true
     end
     i += 1
