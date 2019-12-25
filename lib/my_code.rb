@@ -55,11 +55,10 @@ def reduce_to_total(arr, starting_point=0)
 end
 
 def reduce_to_all_true(arr)
-  result = []
   i      = 0
 
   while i < arr.length
-    !!arr[i]
+    arr[i] ? true : false
     i += 1
   end
 end
