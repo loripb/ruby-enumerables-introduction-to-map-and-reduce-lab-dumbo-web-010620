@@ -63,7 +63,7 @@ def reduce_to_all_true(arr)
     else
       p result
     end
-    
+
     i += 1
   end
   result
