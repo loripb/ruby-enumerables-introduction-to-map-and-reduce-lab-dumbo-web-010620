@@ -60,9 +60,10 @@ def reduce_to_all_true(arr)
 
   while i < arr.length
     if arr[i]
-      result << arr[i]
+      true
+    else 
+      false
     end
     i += 1
   end
-  result
 end
